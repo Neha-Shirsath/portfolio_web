@@ -71,8 +71,8 @@ const index: React.FC<indexProps> = () => {
           speedOut: el.dataset.speedout || undefined,
           easing: el.dataset.easing || undefined,
           hover: el.dataset.hover || undefined,
-          image1: imgs[0].getAttribute("src"),
-          image2: imgs[1].getAttribute("src"),
+          // image1: imgs[0].getAttribute("src"),
+          // image2: imgs[1].getAttribute("src"),
           displacementImage: el.dataset.displacement,
         });
       }
@@ -129,7 +129,7 @@ const index: React.FC<indexProps> = () => {
             name="apple-mobile-web-app-status-bar-style"
             content="#10101A"
           />
-          <title>Adeola Adeoti 🚀 &mdash; Frontend Devloper</title>
+          <title>Neha Shirsath 🚀 &mdash; Frontend Devloper & AIML Engineer</title>
           <meta
             name="description"
             content="I'm a self-taught Front End Developer and turning ideas into real life products is my calling."
@@ -137,7 +137,7 @@ const index: React.FC<indexProps> = () => {
           <meta property="og:type" content="website" />
           <meta
             property="og:title"
-            content="Adeola Adeoti 🚀 &mdash; Frontend Devloper"
+            content="Neha Shirsath  🚀 &mdash; Frontend Devloper & AIML Enginner"
           />
           <meta property="og:url" content="https://adeolaadeoti.xyz/" />
           <meta property="og:image" content="webp/preview-image.png" />
@@ -145,9 +145,9 @@ const index: React.FC<indexProps> = () => {
             property="og:description"
             content="I'm a self-taught Front End Developer and turning ideas into real life products is my calling."
           />
-          <meta
+          {/* <meta
             name="twitter:title"
-            content="Adeola Adeoti 🚀 &mdash; Frontend Devloper"
+            content="Neha Shirsath 🚀 &mdash; Frontend Devloper & AIML Engineer"
           />
           <meta
             name="twitter:description"
@@ -155,7 +155,7 @@ const index: React.FC<indexProps> = () => {
           />
           <meta name="twitter:image" content="webp/preview-image.png" />
           <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:url" content="https://adeolaadeoti.xyz/" />
+          <meta name="twitter:url" content="https://adeolaadeoti.xyz/" /> */}
         </Head>
         <audio loop id="audioPlayer" autoPlay style={{ display: "none" }}>
           <source src="sound/preloader.mp3" type="audio/mp3" />
@@ -264,54 +264,34 @@ const index: React.FC<indexProps> = () => {
                       fill="#F2F2F2"
                       className="rect3-anim"
                     />
-                    {/* <rect
-                      x="13.2"
-                      y="1.06665"
-                      width="1.4"
-                      height="10"
-                      fill="#F2F2F2"
-                      className="rect4-anim"
-                    /> */}
+                  
                   </svg>
                 </div>
               </div>
             </div>
             <div className="header__footer--right">
               <a
-                href="https://github.com/adeolaadeoti"
+                href="https://github.com/Neha-Shirsath"
                 rel="noopener"
                 target="_blank"
               >
                 👾 GH
               </a>
+              
               <a
-                href="https://twitter.com/adeolajs"
-                rel="noopener"
-                target="_blank"
-              >
-                🐦 TW
-              </a>
-              <a
-                href="https://www.linkedin.com/in/adeoladev"
+                href="https://www.linkedin.com/in/neha-shirsath-692039372/"
                 rel="noopener"
                 target="_blank"
               >
                 💼 LD
               </a>
-              <a
-                href="https://www.instagram.com/adeolaadeoti_"
-                rel="noopener"
-                target="_blank"
-              >
-                {" "}
-                📸 IN
-              </a>
+              
             </div>
           </div>
         </div>
         <main className="container">
           <p className="about-text">
-            Hello stranger! 👋, my name is adeola and I am a frontend engineer,
+            Hello stranger! 👋, my name is Neha and I am a frontend engineer & AIML Enginner,
             passionate <br /> about digital products that help people experience
             everyday life, not endure it.
           </p>
@@ -326,15 +306,15 @@ const index: React.FC<indexProps> = () => {
             <div className="project-card">
               <div className="project-card__left">
                 <h4 className="heading-4">
-                  NEXT JS, LOCOMOTIVE SCROLL, FRAMER MOTION
+                  REACT JS, REACT REDUX, TAILWIND CSS
                 </h4>
               </div>
               <div
                 className="project-card__middle"
                 data-displacement="webp/myDistorsionImage.webp"
               >
-                <img src="webp/alexxandria-1.webp" alt="alexxandria model" />
-                <img src="webp/alexxandria-2.webp" alt="alexxandria logo" />
+                <img src="NetflixGimg.png" alt="alexxandria model" />
+                {/* <img src="NetflixGimg.png" alt="alexxandria logo" /> */}
               </div>
               <div className="project-card__right">
                 <h2
@@ -344,25 +324,23 @@ const index: React.FC<indexProps> = () => {
                   data-scroll-class="alexxandria-anim"
                   className="heading-2"
                 >
-                  Alexxandria
-                  <br /> Forque
+                  NetflixGemini
+          
                 </h2>
                 <a
                   rel="noopener"
                   target="_blank"
-                  href="https://alexxandria.vercel.app/"
+                  href="https://netflixgpt-be9f7.web.app/"
                   className="project-card__link"
                 >
                   VISIT THE WEBSITE
                 </a>
                 <div className="project-card__socials">
-                  <a href="#">
-                    <img src="svg/dribble.svg" alt="dribble icon" />
-                  </a>
+                  
                   <a
                     rel="noopener"
                     target="_blank"
-                    href="https://github.com/adeolaadeoti/alexxandria"
+                    href="https://github.com/Neha-Shirsath/NETFLIX-GEMINI"
                   >
                     <img src="svg/github.svg" alt="github icon" />
                   </a>
@@ -372,14 +350,14 @@ const index: React.FC<indexProps> = () => {
 
             <div className="project-card">
               <div className="project-card__left">
-                <h4 className="heading-4">REACT JS, FRAMER MOTION</h4>
+                <h4 className="heading-4">Python, AI, ML, SQL</h4>
               </div>
               <div
                 className="project-card__middle"
                 data-displacement="webp/myDistorsionImage.webp"
               >
-                <img src="webp/safarika-1.webp" alt="safarika" />
-                <img src="webp/safarika-2.webp" alt="safarika logo" />
+                <img src="snap-landing.png" alt="safarika" />
+                {/* <img src="webp/safarika-2.webp" alt="safarika logo" /> */}
               </div>
               <div className="project-card__right">
                 <h2
@@ -389,28 +367,22 @@ const index: React.FC<indexProps> = () => {
                   data-scroll-class="safarika-anim"
                   className="heading-2"
                 >
-                  Safarika
+                  SmartClass
                 </h2>
                 <a
                   rel="noopener"
                   target="_blank"
-                  href="https://safarika-adeola.netlify.app/"
+                  href="https://smart-class-landing-page-roan.vercel.app/"
                   className="project-card__link"
                 >
                   VISIT THE WEBSITE
                 </a>
                 <div className="project-card__socials">
+                  
                   <a
                     rel="noopener"
                     target="_blank"
-                    href="https://dribbble.com/shots/12361426-Safarika-Adventure"
-                  >
-                    <img src="svg/dribble.svg" alt="dribble icon" />
-                  </a>
-                  <a
-                    rel="noopener"
-                    target="_blank"
-                    href="https://github.com/adeolaadeoti/safarika"
+                    href="https://github.com/Neha-Shirsath/SmartClass-Landing-Page"
                   >
                     <img src="svg/github.svg" alt="github icon" />
                   </a>
@@ -421,15 +393,15 @@ const index: React.FC<indexProps> = () => {
             <div className="project-card">
               <div className="project-card__left">
                 <h4 className="heading-4">
-                  NEXT JS, LOCOMOTIVE SCROLL, FRAMER MOTION
+                  HTML, TAILWIND CSS
                 </h4>
               </div>
               <div
                 className="project-card__middle"
                 data-displacement="webp/myDistorsionImage.webp"
               >
-                <img src="webp/heatrow-1.webp" alt="heatrow" />
-                <img src="webp/heatrow-2.webp" alt="heatrow logo" />
+                <img src="veloraimg.png" alt="heatrow" />
+                {/* <img src="webp/heatrow-2.webp" alt="heatrow logo" /> */}
               </div>
               <div className="project-card__right">
                 <h2
@@ -439,11 +411,10 @@ const index: React.FC<indexProps> = () => {
                   data-scroll-class="heatrow-anim"
                   className="heading-2"
                 >
-                  Heatrow
-                  <br /> Estate
+                 Velora
                 </h2>
                 <a
-                  href="https://heatrow.vercel.app/"
+                  href="https://velora-orcin-nu.vercel.app/"
                   rel="noopener"
                   target="_blank"
                   className="project-card__link"
@@ -451,133 +422,30 @@ const index: React.FC<indexProps> = () => {
                   VISIT THE WEBSITE
                 </a>
                 <div className="project-card__socials">
-                  <a href="#">
-                    <img src="svg/dribble.svg" alt="dribble icon" />
-                  </a>
+                  
                   <a
                     rel="noopener"
                     target="_blank"
-                    href="https://github.com/adeolaadeoti/heatrow"
+                    href="https://github.com/Neha-Shirsath/Velora"
                   >
                     <img src="svg/github.svg" alt="github icon" />
                   </a>
                 </div>
               </div>
             </div>
+          </section>
 
-            <div className="project-card">
-              <div className="project-card__left">
-                <h4 className="heading-4">HTML, SCSS, JAVASCRIPT, GSAP</h4>
-              </div>
-              <div
-                className="project-card__middle"
-                data-displacement="webp/myDistorsionImage.webp"
-              >
-                <img src="webp/adeola-1.webp" alt="adeola model" />
-                <img src="webp/adeola-2.webp" alt="adeola logo" />
-              </div>
-              <div className="project-card__right">
-                <h2
-                  data-scroll
-                  data-scroll-offset="35%"
-                  data-scroll-repeat={true}
-                  data-scroll-class="adeola-anim"
-                  className="heading-2"
-                >
-                  AdeolaAdeoti
-                  <br /> version 1
-                </h2>
-                <a
-                  rel="noopener"
-                  target="_blank"
-                  href="https://github.com/adeolaadeoti/adeolaadeoti-portfolio"
-                  className="project-card__link"
-                >
-                  VIEW SOURCE CODE
-                </a>
-                <div className="project-card__socials">
-                  <a
-                    rel="noopener"
-                    target="_blank"
-                    href="https://dribbble.com/shots/12338926-Adeola-Adeoti-Portfolio"
-                  >
-                    <img src="svg/dribble.svg" alt="dribble icon" />
-                  </a>
-                  <a
-                    rel="noopener"
-                    target="_blank"
-                    href="https://github.com/adeolaadeoti/adeolaadeoti-portfolio"
-                  >
-                    <img src="svg/github.svg" alt="github icon" />
-                  </a>
-                </div>
-              </div>
-            </div>
-          </section>
-          <section
-            data-scroll
-            data-scroll-offset="35%"
-            data-scroll-repeat={true}
-            data-scroll-class="section-reviews__bg"
-            className="section-reviews"
-          >
-            <div className="section-reviews__top">
-              <h1 className="heading-1">
-                <span>Mmmm, a little brag </span> <small>😊</small>
-              </h1>
-              <p className="paragraph paragraph__sub">
-                What people are saying about my last portfolio
-              </p>
-            </div>
-            <div className="section-reviews__bottom">
-              <div className="section-reviews__bottom-wrapper review-card__anim1">
-                {reviews?.data.map((review: Ireply) => (
-                  <div key={review.id} className="review-card">
-                    <div className="review-card__top">
-                      <div className="review-card__top--left">
-                        <p className="review-card__p">{review.name}</p>
-                        <h3 className="review-card__h3">{review.userName}</h3>
-                      </div>
-                      <div className="review-card__top--right">
-                        <img src="svg/twitter.svg" alt="twitter icon" />
-                      </div>
-                    </div>
-                    <div className="review-card__bottom">
-                      <h2 className="review-card__h2">{review.reply}</h2>
-                    </div>
-                  </div>
-                ))}
-              </div>
-              <div className="section-reviews__bottom-wrapper review-card__anim2">
-                {reviews?.data.sort().map((review: Ireply) => (
-                  <div key={review.id} className="review-card">
-                    <div className="review-card__top">
-                      <div className="review-card__top--left">
-                        <p className="review-card__p">{review.name}</p>
-                        <h3 className="review-card__h3">{review.userName}</h3>
-                      </div>
-                      <div className="review-card__top--right">
-                        <img src="svg/twitter.svg" alt="twitter icon" />
-                      </div>
-                    </div>
-                    <div className="review-card__bottom">
-                      <h2 className="review-card__h2">{review.reply}</h2>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </section>
+           
           <section className="section-contact">
             <h1 className="heading-1">
               <span>Sold Yet? </span> <small>🤙</small>
             </h1>
             <h2 className="section-contact__h2">
-              Thanks for stopping by, I’m currently looking to join a new team
-              of creative designers and developers. If you think we might be a
-              good fit for one another, send me an
+              Thanks for stopping by,  
+              I’m looking for opportunities to learn, contribute, 
+              and grow with a collaborative team. If you think we’d be a good fit, let’s connect!
               <a
-                href="mailto:adeolaonigegeara@gmail.com"
+                href="mailto:nehashirsath308@gmail.com"
                 rel="noopener"
                 target="_blank"
               >
@@ -593,51 +461,33 @@ const index: React.FC<indexProps> = () => {
             <p className="paragraph">Connect with me online</p>
             <div className="section-socials--links">
               <a
-                href="https://github.com/adeolaadeoti"
+                href="https://github.com/Neha-Shirsath"
                 rel="noopener"
                 target="_blank"
               >
                 👾 GitHub
               </a>
+             
               <a
-                href="https://twitter.com/adeolajs"
-                rel="noopener"
-                target="_blank"
-              >
-                🐦 Twitter
-              </a>
-              <a
-                href="https://www.linkedin.com/in/adeoladev"
+                href="https://www.linkedin.com/in/neha-shirsath-692039372/"
                 rel="noopener"
                 target="_blank"
               >
                 💼 LinkedIn
               </a>
-              <a
-                href="https://www.instagram.com/adeolaadeoti_"
-                rel="noopener"
-                target="_blank"
-              >
-                📸 Instagram
-              </a>
+             
             </div>
           </section>
         </main>
         <footer className="footer">
           <img
             src="svg/adeola-logo-footer.svg"
-            alt="design and devloped by adeola"
+            alt="design and devloped by neha"
           />
           <div className="footer__socials">
+            
             <a
-              href="https://dribbble.com/shots/16100745-Adeola-Adeoti-Personal-Website"
-              target="_blank"
-              rel="noopener"
-            >
-              <img src="svg/dribble.svg" alt="dribble logo" />
-            </a>
-            <a
-              href="https://github.com/adeolaadeoti/adeolaadeoti-v2"
+              href="https://github.com/Neha-Shirsath"
               target="_blank"
               rel="noopener"
             >
@@ -647,7 +497,7 @@ const index: React.FC<indexProps> = () => {
         </footer>
       </div>
     </>
-  );
+    );
 };
 
 export default index;

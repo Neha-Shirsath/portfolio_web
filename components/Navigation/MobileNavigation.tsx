@@ -51,39 +51,27 @@ export const MobileNavigation = ({ variants, isOpen }: any) => (
           <h4 className="navigation-h4">DONT BE A STRANGER</h4>
           <div className="navigation-top__left--links">
             <a
-              href="https://github.com/adeolaadeoti"
+              href="https://github.com/Neha-Shirsath"
               rel="noopener"
               target="_blank"
             >
               👾 GH
             </a>
+           
             <a
-              href="https://twitter.com/adeolajs"
-              rel="noopener"
-              target="_blank"
-            >
-              🐦 TW
-            </a>
-            <a
-              href="https://www.linkedin.com/in/adeoladev"
+              href="https://www.linkedin.com/in/neha-shirsath-692039372/"
               rel="noopener"
               target="_blank"
             >
               💼 LD
             </a>
-            <a
-              href="https://www.instagram.com/adeolaadeoti_"
-              rel="noopener"
-              target="_blank"
-            >
-              📸 IN
-            </a>
+            
           </div>
         </div>
         <div className="navigation-top__right">
           <h4 className="navigation-h4">HAVE AN IDEA?</h4>
           <a
-            href="mailto:adeolaonigegeara@gmail.com"
+            href="mailto:nehashirsath308@gmail.com"
             target="_blank"
             rel="nofollow noopener noreferrer"
           >
@@ -105,36 +93,32 @@ export const MobileNavigation = ({ variants, isOpen }: any) => (
           <a
             target="_blank"
             rel="noopener"
-            href="https://alexxandria.vercel.app/"
+            href="https://netflixgpt-be9f7.web.app/"
             className="navigation-bottom__projects-card"
           >
-            <img src="webp/alexxandria-nav.webp" alt="alexxandria" />
+            <img src="NetflixGimg.png" alt="netflixGemini" />
             <h2>
-              Alexxandria
-              <br />
-              Forque
+              NetflixGemini
             </h2>
           </a>
           <a
-            href="https://safarika-adeola.netlify.app/"
+            href="https://smart-class-landing-page-roan.vercel.app/"
             target="_blank"
             rel="noopener"
             className="navigation-bottom__projects-card"
           >
-            <img src="webp/safarika-nav.webp" alt="safarika" />
-            <h2>Safarika</h2>
+            <img src="snap-landing.png" alt="smartClass" />
+            <h2>SmartClass</h2>
           </a>
           <a
-            href="https://adeolaadeoti.netlify.app/"
+            href="https://velora-orcin-nu.vercel.app/"
             target="_blank"
             rel="noopener"
             className="navigation-bottom__projects-card"
           >
-            <img src="webp/adeola-1.webp" alt="adeola" />
+            <img src="veloraimg.png" alt="velora" />
             <h2>
-              AdeolaAdeoti
-              <br />
-              Version 1
+              Velora
             </h2>
           </a>
         </div>
