@@ -13,9 +13,10 @@
     top: 5rem;
     right: 0;
     left: 0;
-    padding: 2rem 4rem;
+    padding: 0.5rem 1.5rem;
     @include centerContent;
     width: 50%;
+    height: 80px;
     margin-left: auto;
     margin-right: auto;
     background: rgba(42, 43, 56, 0.5);
@@ -23,10 +24,22 @@
     backdrop-filter: blur(104px);
     border-radius: 2rem;
 
-    @media only screen and (max-width: 40em) {
-      width: 75%;
-      padding: 2rem;
+    @media only screen and (max-width: 20em) {
+      width: 65%;
+      padding: 0.5rem;
     }
+
+    .brand-logo__icon{
+      padding: 2rem 0rem;
+      width: 60px;
+      height: auto;
+    }
+    
+    .brand-logo__text{
+      width : 160px;
+      height: auto;
+    }
+
 
     .brand-logo {
       display: flex;
@@ -43,7 +56,7 @@
       color: var(--color-gray);
       font-family: $font-tertiary;
 
-      @media only screen and (max-width: 40em) {
+      @media only screen and (max-width: 20em) {
         span {
           display: none;
         }
@@ -68,7 +81,7 @@
   }
   &__text {
     animation: logoLeftAnim 15s cubic-bezier(1, 0, 0, 1) infinite;
-    @media only screen and (max-width: 40em) {
+    @media only screen and (max-width: 20em) {
       // display: none;
     }
   }

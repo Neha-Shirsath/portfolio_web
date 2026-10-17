@@ -3,6 +3,7 @@ import { cubicBezier, motion } from "framer-motion";
 import { MenuToggle } from "./MenuToggle";
 import { MobileNavigation } from "./MobileNavigation";
 import Link from "next/link";
+import Image from "next/image";
 
 const variants = {
   open: {
@@ -41,14 +42,14 @@ export const Navigation = ({ isOpen, toggleOpen }: any) => {
         <Link href="/" className="brand-logo">
           <img
             className="brand-logo__icon"
-            src="svg/adeola-logo-left.svg"
-            alt="adeola logo icon"
+            src="svg/neha-logo-left.png"
+            alt="neha logo icon"
           />
           <span className="brand-logo__text-wrapper">
             <img
               className="brand-logo__text"
-              src="svg/adeola-logo-right.svg"
-              alt="adeola logo text"
+              src="svg/neha-logo-right.png"
+              alt="neha logo text"
             />
           </span>
         </Link>

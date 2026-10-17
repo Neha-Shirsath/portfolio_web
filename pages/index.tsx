@@ -86,7 +86,7 @@ const index: React.FC<indexProps> = () => {
 
     console.clear();
     console.log.apply(console, [
-      "%c Designed and Developed by Adeola Adeoti %c %c🚀 %c\n",
+      "%c Designed and Developed by Neha Shirsath %c %c🚀 %c\n",
       "color: #fff; background: #8000ff; padding:5px 0;",
       "color: #fff; background: #242424; padding:5px 0 5px 5px;",
       "background: #242424; padding:5px 0",
@@ -122,8 +122,8 @@ const index: React.FC<indexProps> = () => {
     <>
       <div id="menu-target" data-scroll-container ref={refScroll}>
         <Head>
-          <link rel="icon" href="svg/favicon.svg" />
-          <link href="https://adeolaadeoti.xyz/" rel="canonical" />
+          <link rel="icon" href="svg/favicon.png" />
+          <link href="https://nehashirsath.xyz/" rel="canonical" />
           <meta name="theme-color" content="#10101A" />
           <meta
             name="apple-mobile-web-app-status-bar-style"
@@ -132,7 +132,7 @@ const index: React.FC<indexProps> = () => {
           <title>Neha Shirsath 🚀 &mdash; Frontend Devloper & AIML Engineer</title>
           <meta
             name="description"
-            content="I'm a self-taught Front End Developer and turning ideas into real life products is my calling."
+            content="I'm a self-taught developerc:\Users\NEHA\Downloads\NetflixGimg.webp and turning ideas into real life products is my calling."
           />
           <meta property="og:type" content="website" />
           <meta
@@ -173,7 +173,7 @@ const index: React.FC<indexProps> = () => {
               animate={{ x: 0, opacity: 1, transition: { ...transition } }}
               className="preloader__left"
             >
-              <img src="svg/adeola-logo-left.svg" alt="adeola logo" />
+              <img src="svg/neha-logo-left.svg" alt="neha logo" />
             </motion.div>
             <motion.div
               initial={{ x: 10, opacity: 0 }}
@@ -313,7 +313,7 @@ const index: React.FC<indexProps> = () => {
                 className="project-card__middle"
                 data-displacement="webp/myDistorsionImage.webp"
               >
-                <img src="NetflixGimg.png" alt="alexxandria model" />
+                <img src="/NetflixGimg.webp" alt="alexxandria model" />
                 {/* <img src="NetflixGimg.png" alt="alexxandria logo" /> */}
               </div>
               <div className="project-card__right">
@@ -356,7 +356,7 @@ const index: React.FC<indexProps> = () => {
                 className="project-card__middle"
                 data-displacement="webp/myDistorsionImage.webp"
               >
-                <img src="snap-landing.png" alt="safarika" />
+                <img src="/snap-landing.png" alt="safarika" />
                 {/* <img src="webp/safarika-2.webp" alt="safarika logo" /> */}
               </div>
               <div className="project-card__right">
@@ -400,7 +400,7 @@ const index: React.FC<indexProps> = () => {
                 className="project-card__middle"
                 data-displacement="webp/myDistorsionImage.webp"
               >
-                <img src="veloraimg.png" alt="heatrow" />
+                <img src="/veloraimg.png" alt="heatrow" />
                 {/* <img src="webp/heatrow-2.webp" alt="heatrow logo" /> */}
               </div>
               <div className="project-card__right">
@@ -481,7 +481,7 @@ const index: React.FC<indexProps> = () => {
         </main>
         <footer className="footer">
           <img
-            src="svg/adeola-logo-footer.svg"
+            src="svg/neha-logo-footer.svg"
             alt="design and devloped by neha"
           />
           <div className="footer__socials">
