@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import Head from "next/head";
 import { cubicBezier, motion } from "framer-motion";
 import { Navigation } from "../components/Navigation/Navigation";
-import useSwr from "swr";
 import ReactGa from "react-ga";
 
 interface indexProps {}
@@ -25,9 +24,8 @@ const fetcher = (url: any) => fetch(url).then((res) => res.json());
 const index: React.FC<indexProps> = () => {
   const [speakerState, setSpeakerState] = useState("muted");
   const [isToggleOpen, setIsToggleOpen] = useState<boolean>(false);
-  const { data: reviews, error } = useSwr("/api/tweets", fetcher);
 
-  if (error) console.log(error);
+  
 
   const refScroll = React.useRef(null);
   let lscroll: any;
