@@ -3,7 +3,6 @@ import { cubicBezier, motion } from "framer-motion";
 import { MenuToggle } from "./MenuToggle";
 import { MobileNavigation } from "./MobileNavigation";
 import Link from "next/link";
-import Image from "next/image";
 
 const variants = {
   open: {

@@ -1,6 +1,7 @@
 import * as React from "react";
 import { cubicBezier, motion } from "framer-motion";
 
+
 const openTransition = {
   duration: 1.1,
   delay: 1.2,
@@ -96,7 +97,7 @@ export const MobileNavigation = ({ variants, isOpen }: any) => (
             href="https://netflixgpt-be9f7.web.app/"
             className="navigation-bottom__projects-card"
           >
-            <img src="NetflixGimg.png" alt="netflixGemini" />
+            <img src="webp/NetflixGimg-nav.png" alt="netflixGemini" />
             <h2>
               NetflixGemini
             </h2>
@@ -107,7 +108,7 @@ export const MobileNavigation = ({ variants, isOpen }: any) => (
             rel="noopener"
             className="navigation-bottom__projects-card"
           >
-            <img src="snap-landing.png" alt="smartClass" />
+            <img src="webp/snap-landing-nav.png" alt="smartClass" />
             <h2>SmartClass</h2>
           </a>
           <a
@@ -116,7 +117,7 @@ export const MobileNavigation = ({ variants, isOpen }: any) => (
             rel="noopener"
             className="navigation-bottom__projects-card"
           >
-            <img src="veloraimg.png" alt="velora" />
+            <img className="velora-img" src="webp/veloraimg-nav.png" alt="velora" />
             <h2>
               Velora
             </h2>

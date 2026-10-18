@@ -63,18 +63,19 @@ const index: React.FC<indexProps> = () => {
     // image hover effect
     Array.from(document.querySelectorAll(".project-card__middle")).forEach(
       (el: any) => {
-        const imgs: any = Array.from(el.querySelectorAll("img"));
+        const imgs = Array.from(el.querySelectorAll("img"));
+
         new hoverEffect({
-          parent: el,
-          intensity: 0.2,
-          speedIn: el.dataset.speedin || undefined,
-          speedOut: el.dataset.speedout || undefined,
-          easing: el.dataset.easing || undefined,
-          hover: el.dataset.hover || undefined,
-          // image1: imgs[0].getAttribute("src"),
-          // image2: imgs[1].getAttribute("src"),
-          displacementImage: el.dataset.displacement,
-        });
+        parent: el,
+        intensity: 0.2,
+        speedIn: el.dataset.speedin || undefined,
+        speedOut: el.dataset.speedout || undefined,
+        easing: el.dataset.easing || undefined,
+        hover: el.dataset.hover || undefined,
+        image1: imgs[0]?.getAttribute("src"),
+        image2: imgs[1]?.getAttribute("src"),
+        displacementImage: el.dataset.displacement,
+       });
       }
     );
 
@@ -173,7 +174,7 @@ const index: React.FC<indexProps> = () => {
               animate={{ x: 0, opacity: 1, transition: { ...transition } }}
               className="preloader__left"
             >
-              <img src="svg/neha-logo-left.svg" alt="neha logo" />
+              <img className="neha-logo-fr" src="svg/neha-logo-left.png" alt="nehalogo" />
             </motion.div>
             <motion.div
               initial={{ x: 10, opacity: 0 }}
@@ -181,12 +182,12 @@ const index: React.FC<indexProps> = () => {
               className="preloader__right"
             >
               <p className="preloader__text">HTML</p>
-              <p className="preloader__text">CSS/SCSS</p>
+              <p className="preloader__text">CSS</p>
               <p className="preloader__text">JAVASCRIPT</p>
-              <p className="preloader__text">TYPESCRIPT</p>
               <p className="preloader__text">REACT JS</p>
-              <p className="preloader__text">NEXT JS</p>
-              <p className="preloader__text">FRAMER MOTION</p>
+              <p className="preloader__text">TAILWIND CSS</p>
+              <p className="preloader__text">PYTHON</p>
+              <p className="preloader__text">AI</p>
             </motion.div>
           </div>
         </motion.div>
@@ -313,8 +314,8 @@ const index: React.FC<indexProps> = () => {
                 className="project-card__middle"
                 data-displacement="webp/myDistorsionImage.webp"
               >
-                <img src="/NetflixGimg.webp" alt="alexxandria model" />
-                {/* <img src="NetflixGimg.png" alt="alexxandria logo" /> */}
+                <img src="webp/NetflixGimg.png" alt="alexxandria model" />
+                <img src="webp/NetflixGimg-2.png" alt="alexxandria logo" />
               </div>
               <div className="project-card__right">
                 <h2
@@ -356,8 +357,8 @@ const index: React.FC<indexProps> = () => {
                 className="project-card__middle"
                 data-displacement="webp/myDistorsionImage.webp"
               >
-                <img src="/snap-landing.png" alt="safarika" />
-                {/* <img src="webp/safarika-2.webp" alt="safarika logo" /> */}
+                <img src="webp/snap-landing.png" alt="safarika" />
+                <img src="webp/snap-landing-2.png" alt="safarika logo" />
               </div>
               <div className="project-card__right">
                 <h2
@@ -400,8 +401,8 @@ const index: React.FC<indexProps> = () => {
                 className="project-card__middle"
                 data-displacement="webp/myDistorsionImage.webp"
               >
-                <img src="/veloraimg.png" alt="heatrow" />
-                {/* <img src="webp/heatrow-2.webp" alt="heatrow logo" /> */}
+                <img src="webp/veloraimg.png" alt="velora" />
+                <img src="webp/veloraimg-2.png" alt="velora logo" />
               </div>
               <div className="project-card__right">
                 <h2
@@ -481,7 +482,8 @@ const index: React.FC<indexProps> = () => {
         </main>
         <footer className="footer">
           <img
-            src="svg/neha-logo-footer.svg"
+            className="neha-footer"
+            src="svg/neha-logo-footer.png"
             alt="design and devloped by neha"
           />
           <div className="footer__socials">

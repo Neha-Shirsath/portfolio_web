@@ -50,8 +50,8 @@
 .alexxandria-anim {
   background: linear-gradient(
     -45deg,
-    #63898a,
-    #9fbcbf,
+    #c00606,
+    #220c0c0b,
     var(--color-white),
     var(--color-white)
   );
@@ -70,8 +70,8 @@
 .safarika-anim {
   background: linear-gradient(
     -45deg,
-    #fbb034,
-    #ffdd00,
+    #061a8b,
+    #d1219f,
     var(--color-white),
     var(--color-white)
   );
@@ -86,8 +86,8 @@
 .heatrow-anim {
   background: linear-gradient(
     -45deg,
-    #045de9,
-    #09c6f9,
+    #730404,
+    #c19224,
     var(--color-white),
     var(--color-white)
   );
@@ -139,4 +139,14 @@
   &__sub {
     color: #8b8b8b;
   }
+}
+
+.neha-logo-fr{
+  width: 60px;
+  height: auto;
+}
+
+.neha-footer{
+  width: 60px;
+  height: auto;
 }
