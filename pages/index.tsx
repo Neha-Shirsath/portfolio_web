@@ -53,7 +53,7 @@ const index: React.FC<indexProps> = () => {
     // image hover effect
     Array.from(document.querySelectorAll(".project-card__middle")).forEach(
       (el: any) => {
-        const imgs = Array.from(el.querySelectorAll("img"));
+        const imgs: HTMLImageElement[] = Array.from((el as HTMLElement).querySelectorAll("img"));
 
         new hoverEffect({
         parent: el,
