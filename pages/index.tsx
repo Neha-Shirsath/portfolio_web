@@ -120,7 +120,7 @@ const index: React.FC<indexProps> = () => {
             name="apple-mobile-web-app-status-bar-style"
             content="#10101A"
           />
-          <title>Neha Shirsath 🚀 &mdash; Frontend Devloper & AIML Engineer</title>
+          <title>Neha Shirsath 🚀 &mdash; Frontend Developer & AIML Engineer</title>
           <meta
             name="description"
             content="I'm a self-taught developerc:\Users\NEHA\Downloads\NetflixGimg.webp and turning ideas into real life products is my calling."
@@ -128,7 +128,7 @@ const index: React.FC<indexProps> = () => {
           <meta property="og:type" content="website" />
           <meta
             property="og:title"
-            content="Neha Shirsath  🚀 &mdash; Frontend Devloper & AIML Enginner"
+            content="Neha Shirsath  🚀 &mdash; Frontend Developer & AIML Enginner"
           />
           <meta property="og:url" content="https://adeolaadeoti.xyz/" />
           <meta property="og:image" content="webp/preview-image.png" />
@@ -138,7 +138,7 @@ const index: React.FC<indexProps> = () => {
           />
           {/* <meta
             name="twitter:title"
-            content="Neha Shirsath 🚀 &mdash; Frontend Devloper & AIML Engineer"
+            content="Neha Shirsath 🚀 &mdash; Frontend Developer & AIML Engineer"
           />
           <meta
             name="twitter:description"
